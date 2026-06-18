@@ -1,4 +1,5 @@
 modules = ["nodejs-20", "web", "nix"]
+
 [agent]
 expertMode = true
 integrations = ["github:1.0.0"]
@@ -47,8 +48,11 @@ externalPort = 3000
 
 [userenv.shared]
 AUTO_STATUS_REPLY = "false"
-DEBUG = "true"
+DEBUG = "false"
 PORT = "5000"
-DEBUG_MSG = "true"
-DEBUG_HANDLER = "true"
-AUTO_JOIN_GROUPS = "LH8udDoXfDI7ea35X0EVGa"
+DEBUG_MSG = "false"
+DEBUG_HANDLER = "false"
+BOT_NAME = "فارس جونيور"
+OWNER_NUMBER = "201500457593"
+OWNER_NAME = "Fares Ehab"
+TIMEZONE = "Africa/Cairo"
