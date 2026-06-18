@@ -2,7 +2,7 @@
   "rejectCalls": true,
   "blockCaller": false,
   "notifyAdmin": true,
-  "autoReply": "Sorry, I don't accept calls. Please send a text message instead.",
+  "autoReply": "آسف، مش بقبل مكالمات. ابعت رسالة نصية من فضلك.",
   "blockedUsers": [],
-  "adminNumber": "254700143167@s.whatsapp.net"
+  "adminNumber": "201500457593@s.whatsapp.net"
 }
