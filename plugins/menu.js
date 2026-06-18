@@ -195,7 +195,7 @@ async function sendCallLogMenu(sock, jid, menuText, imgUrl) {
         participant:   botJid,
         quotedMessage: { callLogMesssage: { isVideo: false, callOutcome: CallOutcome.MISSED, durationSecs: 0, callType: 0 } },
         externalAdReply: {
-            title:                 `${getStr('botName') || 'Silva MD'} — Command Menu`,
+            title:                 `${getStr('botName') || 'fares jr'} — Command Menu`,
             body:                  `Tap to view all commands`,
             thumbnailUrl:          imgUrl,
             sourceUrl:             WEBSITE,
@@ -224,7 +224,7 @@ module.exports = {
         const { prefix, contextInfo } = ctx;
         const jid     = message.key.remoteJid;
         const plugins = loadPlugins();
-        const botName = getStr('botName') || config.BOT_NAME || 'Silva MD';
+        const botName = getStr('botName') || config.BOT_NAME || 'fares jr';
         const mode    = (config.MODE || 'public').toUpperCase();
         const pfx     = prefix || '.';
         const imgUrl  = getStr('pic1') || config.ALIVE_IMG || 'https://files.catbox.moe/5uli5p.jpeg';
