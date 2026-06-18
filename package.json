@@ -1,7 +1,7 @@
 {
-  "name": "@silvatechb/silva-md-bot",
-  "version": "2.0.0",
-  "description": "Silva MD — A feature-rich multi-device WhatsApp bot with 1200+ commands, AI agent, 19 smart features, and anti-ban protection. Built with Node.js and Baileys.",
+  "name": "@faresehab/fares-junior-bot",
+  "version": "1.0.0",
+  "description": "فارس جونيور — WhatsApp Bot متعدد الأجهزة بأوامر كتيرة، ذكاء اصطناعي، وحماية متقدمة. Built with Node.js and Baileys.",
   "main": "silva.js",
   "scripts": {
     "start": "node silva.js"
@@ -11,14 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SilvaTechB/silva-md-bot.git"
+    "url": "https://github.com/FaresEhab/fares-junior-bot.git"
   },
-  "homepage": "https://silvatech.co.ke",
+  "homepage": "https://github.com/FaresEhab/fares-junior-bot",
   "bugs": {
-    "url": "https://github.com/SilvaTechB/silva-md-bot/issues"
+    "url": "https://github.com/FaresEhab/fares-junior-bot/issues"
   },
   "keywords": [
-    "silva-md",
+    "fares-junior",
+    "fares-md",
     "whatsapp-bot",
     "baileys",
     "multi-device",
@@ -30,12 +31,12 @@
     "anti-delete",
     "anti-ban"
   ],
-  "author": "Silva",
+  "author": "Fares Ehab",
   "contributors": [
     {
-      "name": "SilvaTech",
-      "email": "silvatechb@gmail.com",
-      "url": "https://silvatech.co.ke"
+      "name": "Fares Ehab",
+      "email": "",
+      "url": "https://github.com/FaresEhab"
     }
   ],
   "license": "Apache-2.0",
@@ -55,7 +56,7 @@
     "@whiskeysockets/baileys": "npm:gifted-baileys@^2.5.8",
     "@xct007/frieren-scraper": "^0.0.2",
     "@xct007/tiktok-scraper": "^1.0.2",
-    "axios": "^1.18.0",
+    "axios": "^1.13.6",
     "chalk": "^5.6.2",
     "cheerio": "^1.2.0",
     "chess.js": "^1.4.0",
@@ -66,7 +67,7 @@
     "fb-downloader-scrapper": "^3.0.1",
     "fg-ig": "^0.0.2",
     "figlet": "^1.11.0",
-    "file-type": "^22.0.1",
+    "file-type": "^18.7.0",
     "fluent-ffmpeg": "^2.1.3",
     "formdata-node": "^5.0.1",
     "g-i-s": "^2.1.7",
@@ -75,7 +76,7 @@
     "imagemaker.js": "^2.0.4",
     "instagram-url-direct": "^1.2.2",
     "jimp": "^1.6.0",
-    "link-preview-js": "^4.0.3",
+    "link-preview-js": "^3.2.0",
     "megajs": "^1.3.9",
     "moment-timezone": "^0.5.48",
     "node-fetch": "^3.3.2",
@@ -91,32 +92,15 @@
     "tempmail.lol": "^4.4.0",
     "terminal-image": "^3.1.1",
     "url-regex-safe": "^3.0.0",
-    "wa-sticker-formatter": "^4.4.4",
-    "ws": "^8.21.0",
+    "wa-sticker-formatter": "^1.6.0",
+    "ws": "^8.19.0",
     "yargs": "^17.7.2",
     "youtube-yts": "^2.0.0",
     "youtubedl-core": "^4.11.7",
     "yt-search": "^2.13.1",
     "ytdl-core": "^4.11.5"
   },
-  "overrides": {
-    "form-data": "^4.0.0",
-    "protobufjs": "^7.0.0",
-    "jsonpath-plus": "^10.0.0",
-    "tough-cookie": "^6.0.1",
-    "minimatch": "^10.0.0",
-    "jpeg-js": "^0.4.4",
-    "fast-uri": "^4.0.0",
-    "music-metadata": "^11.0.0",
-    "ws": "^8.21.0",
-    "axios": "^1.18.0",
-    "qs": "^6.15.2",
-    "phin": "^3.7.1",
-    "sharp": "^0.35.1",
-    "wa-sticker-formatter": {
-      "file-type": "^22.0.1"
-    }
-  },
+  "overrides": {},
   "devDependencies": {
     "prettier": "^3.2.5"
   }
