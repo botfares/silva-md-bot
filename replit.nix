@@ -13,10 +13,13 @@
         pkgs.yarn
         pkgs.pm2
         pkgs.libuuid
+        pkgs.python3
+        pkgs.chromium
     ];
     env = {
         LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
             pkgs.libuuid
+            pkgs.libwebp
         ];
     };
 }
