@@ -6,7 +6,7 @@ const { performance } = require('perf_hooks');
 const { getActiveTheme } = require('../lib/theme');
 const moment  = require('moment-timezone');
 
-const TZ = 'Africa/Nairobi';
+const TZ = 'Africa/egypt';
 
 module.exports = {
     commands:    ['alive', 'bot', 'botinfo'],
@@ -40,8 +40,8 @@ module.exports = {
         const date   = now.format('ddd, D MMM YYYY');
         const time   = now.format('hh:mm A');
 
-        const botName  = t.botName  || 'Silva MD';
-        const footer   = t.footer   || 'Silva MD';
+        const botName  = t.botName  || 'fares jr';
+        const footer   = t.footer   || 'fares jr';
         const alive    = t.alive    || 'System online. All functions nominal.';
         const emoji    = t.aliveEmoji || '⚡';
         const imageUrl = config.ALIVE_IMG || t.pic1 || 'https://files.catbox.moe/5uli5p.jpeg';
